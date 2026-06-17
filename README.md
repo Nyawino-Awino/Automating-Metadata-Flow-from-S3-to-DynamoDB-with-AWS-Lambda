@@ -13,6 +13,22 @@ The solution leverages three core AWS services:
 
 The flow is straightforward: an **S3 Event** (e.g., a new file upload) triggers an **AWS Lambda** function, which then extracts **Metadata** from the S3 object and writes it to an **Amazon DynamoDB table**.
 
+## Deployment
+
+Refer to: docs/deployment-guide.md
+
+## Testing
+
+Upload any file into the configured S3 bucket and verify that metadata appears in DynamoDB.
+
+## Conclusion
+You have successfully implemented an automated metadata flow from S3 to DynamoDB using AWS Lambda. This serverless architecture provides a scalable, cost-effective, and efficient way to process file uploads and manage their associated metadata. You can extend this solution by extracting more complex metadata, integrating with other AWS services, or building a frontend application to search and display the metadata.
+
+## References
+AWS CLI Installation and Configuration: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
+Amazon S3 Documentation: https://docs.aws.amazon.com/s3/index.html
+AWS Lambda Documentation: https://docs.aws.amazon.com/lambda/index.html
+Amazon DynamoDB Documentation: https://docs.aws.amazon.com/dynamodb/index.html
 
 
 ## Author
