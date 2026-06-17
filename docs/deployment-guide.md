@@ -85,6 +85,7 @@ Click **Deploy**
 **Step 6: Add an S3 Trigger**
 
 On the same **Lambda Function** page, go to *“Configuration → Triggers”*
+
 Click **Add trigger** 
 
 
