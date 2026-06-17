@@ -55,6 +55,7 @@ s3 = boto3.client('s3')
 dynamodb = boto3.resource('dynamodb')
 table = dynamodb.Table('S3DynamoDBtable')
 
+#Get the object from the event and show its content type
 def lambda_handler(event, context):     
     for record in event['Records']: 
         bucket_name = record['s3']['bucket']['name']         
@@ -69,7 +70,8 @@ def lambda_handler(event, context):
          except Exception as e: 
             print(f"Failed to get metadata: {e}")             
             size = -1 
-            
+         
+         #Prepare item for DynamoDB   
          table.put_item(Item={ 
             'unique': str(uuid4()), 
             'Bucket': bucket_name, 
