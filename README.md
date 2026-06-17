@@ -12,3 +12,9 @@ The solution leverages three core AWS services:
 ![Architecture Diagram](architecture/aws_metadata_flow.png)
 
 The flow is straightforward: an **S3 Event** (e.g., a new file upload) triggers an **AWS Lambda** function, which then extracts **Metadata** from the S3 object and writes it to an **Amazon DynamoDB table**.
+
+
+
+## Author
+Rhoda Ndege
+Cloud Engineer
