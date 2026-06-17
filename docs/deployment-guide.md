@@ -22,4 +22,17 @@
   - **Disable**: Block Public Access
 - Click **Create Bucket**
 
+**Step 3: Create a DynamoDB Table**
+- On the AWS Console, search for AWS DynamoDB.
+- Click **Create Table**
+- Create a table and use default settings
+- Fill in:
+  - Table Name: e.g., *MyDynamoDBTable*
+  - Partition Key: *unique*
+  - Table Settings: Leave as default.
+- Click **Create Table**
+
+
+
+
 
