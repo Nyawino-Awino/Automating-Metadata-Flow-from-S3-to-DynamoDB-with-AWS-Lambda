@@ -33,6 +33,7 @@
 - Click **Create Table**
 
 **Step 4: Create a Lambda Function**
+
 AWS Lambda is a serverless computing services that allows you to run code without provisioning or managing services. 
 - On AWS Console, Search for **AWS Lambda**
 - Click **Create Function**
