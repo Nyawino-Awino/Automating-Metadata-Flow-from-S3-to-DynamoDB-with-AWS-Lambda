@@ -32,6 +32,19 @@
   - Table Settings: Leave as default.
 - Click **Create Table**
 
+**Step 4: Create a Lambda Function**
+AWS Lambda is a serverless computing services that allows you to run code without provisioning or managing services. 
+- On AWS Console, Search for **AWS Lambda**
+- Click **Create Function**
+- Choose:
+  - Author from Scratch
+  - Name: *S3ToDynamoFunction*
+  - Runtime: *Python 3.10/3.9/3.11*
+  - Permissions: Use existing role: select *Lambda_DynamoDB_Role*
+- Click **Create Function**
+
+
+
 
 
 
