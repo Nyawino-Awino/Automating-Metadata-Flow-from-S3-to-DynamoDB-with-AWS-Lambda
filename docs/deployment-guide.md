@@ -91,7 +91,7 @@ Click **Deploy**
   - **Event type**: PUT or ALL object create events
   - **Prefix/suffix**: *leave blank unless filtering*
 
-**Step 8: Test the Automation** 
+**Step 7: Test the Automation** 
 - Go to your S3 bucket 
 - Upload any test file (e.g., test.txt) 
 - Go to **CloudWatch Log**s > */aws/lambda/S3ToDynamoFunction* 
