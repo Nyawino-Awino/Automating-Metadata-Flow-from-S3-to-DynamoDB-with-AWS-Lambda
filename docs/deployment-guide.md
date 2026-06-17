@@ -91,6 +91,15 @@ Click **Deploy**
   - **Event type**: PUT or ALL object create events
   - **Prefix/suffix**: *leave blank unless filtering*
 
+**Step 8: Test the Automation** 
+- Go to your S3 bucket 
+- Upload any test file (e.g., test.txt) 
+- Go to **CloudWatch Log**s > */aws/lambda/S3ToDynamoFunction* 
+  - Confirm your function was triggered 
+  - Check for errors or success messages 
+- Go to DynamoDB → Tables → S3DynamoDBtable → Explore Table Items
+
+You should see a new row with the metadata. 
 
 
 
