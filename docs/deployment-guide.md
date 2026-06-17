@@ -80,8 +80,12 @@ def lambda_handler(event, context):
             'Event_name': event_name, 
             'Event_time': event_time 
         }) 
+Click **Deploy**
 
+**Step 6: Add an S3 Trigger**
 
+On the same **Lambda Function** page, go to *“Configuration → Triggers”*
+Click **Add trigger** 
 
 
 
