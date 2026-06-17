@@ -15,7 +15,7 @@ The flow is straightforward: an **S3 Event** (e.g., a new file upload) triggers 
 
 ## Deployment
 
-Refer to: docs/deployment-guide.md
+Refer to: ![Documentation](docs/deployment-guide.md)
 
 ## Testing
 
