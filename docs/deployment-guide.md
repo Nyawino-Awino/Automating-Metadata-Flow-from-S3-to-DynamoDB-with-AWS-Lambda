@@ -86,7 +86,16 @@ Click **Deploy**
 
 On the same **Lambda Function** page, go to *“Configuration → Triggers”*
 
-Click **Add trigger** 
+Click **Add trigger**
+
+Choose:
+- Trigger type: S3
+- Bucket: *your bucket name*
+- Event type: PUT or ALL object create events
+- Prefix/suffix: *leave blank unless filtering*
+
+
+
 
 
 
