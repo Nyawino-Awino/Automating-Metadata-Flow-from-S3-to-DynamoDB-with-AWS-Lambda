@@ -1,2 +1,3 @@
 # Automating-Metadata-Flow-from-S3-to-DynamoDB-with-AWS-Lambda
-This project automates the workflow of capturing metadata from newly uploaded objects in an S3 bucket. 
+This guide provides a detailed, step-by-step approach to implementing an automated metadata extraction and storage solution using Amazon S, AWS Lambda, and AmazonDynamoDB. This architecture is ideal for scenarios where you need to process newly uploaded files in S3, extract specific metadata, and store it in a highly scalable NoSQL database for quick retrieval and analysis. This pattern is fundamental for building data lakes, content management systems, digital asset management,complianace and auditing and event-driven architectures.
+
