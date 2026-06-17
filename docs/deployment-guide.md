@@ -62,7 +62,7 @@ def lambda_handler(event, context):
         event_name = record['eventName']         
         event_time = record['eventTime'] 
  
-         *Get object metadata*         
+         #Get object metadata       
          try: 
             meta = s3.head_object(Bucket=bucket_name, Key=object_key)             
             size = meta['ContentLength']         
