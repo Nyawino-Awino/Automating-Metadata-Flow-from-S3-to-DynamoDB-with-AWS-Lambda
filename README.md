@@ -9,4 +9,4 @@ The solution leverages three core AWS services:
 
 ## 🏗️ Architecture
 
-![Architecture Diagram](aws_metadata_flow.png)
+![Architecture Diagram](architecture/aws_metadata_flow.png)
