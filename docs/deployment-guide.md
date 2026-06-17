@@ -5,6 +5,7 @@
 - Click **Role** - **Create a Role**
   - On Trusted Entity Type: AWS Service
   - Use Case: Select Lambda
-- Add Permissions:
+- **Add Permissions**:
   - AmazonDynamoDBFullAccess
   - AmazonS3ReadOnlyAccess
+- Click **Next**
