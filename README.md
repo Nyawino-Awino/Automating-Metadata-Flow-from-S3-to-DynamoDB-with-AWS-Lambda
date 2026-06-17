@@ -7,3 +7,8 @@ The solution leverages three core AWS services:
 - **AWS Lambda**: A serverless compute service that executes code in response to events. In this architecture, Lambda is triggered by S3 object creation events. It extracts relevant metadata from the S3 object and prepares it for storage.
 - **Amazon DynamoDB**: A fast, flexible NoSQL database service for single-digit millisecond performance at any scale. It will store the extracted metadata, making it easily queryable.
 
+## Architecture
+
+![Architecture Diagram](architecture/aws_metadata_flow.png)
+
+The flow is straightforward: an **S3 Event** (e.g., a new file upload) triggers an **AWS Lambda** function, which then extracts **Metadata** from the S3 object and writes it to an **Amazon DynamoDB table**.
